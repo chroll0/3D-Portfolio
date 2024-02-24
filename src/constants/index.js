@@ -237,31 +237,9 @@ const testimonials = [
 
 const projects = [
   {
-    name: "T-shirt Customizer",
+    name: "Event Platform",
     description:
-      "AI T-shirt Customizer Website, where creativity meets technology to redefine the way you design and personalize T-shirts. Our innovative platform combines the power of artificial intelligence with your imagination, allowing you to create unique and stylish custom T-shirts effortlessly.",
-    tags: [
-      {
-        name: "react",
-        color: "blue-text-gradient",
-      },
-      {
-        name: "threejs",
-        color: "green-text-gradient",
-      },
-      {
-        name: "tailwind",
-        color: "pink-text-gradient",
-      },
-    ],
-    image: webProject03,
-    source_code_link: "https://github.com/chroll0/T-shirt-Customizer",
-    live_link: "https://t-shirt-customizer-website.netlify.app/",
-  },
-  {
-    name: "Promtopia",
-    description:
-      "This is a hub of creative prompts and inspiration. Explore, contribute, and inspire your creativity with our collection of prompts spanning various genres. Join us in imagining the world of storytelling and artistic expression!",
+      "On our platform, you can effortlessly create and showcase your events while seamlessly accessing tickets to the hottest happenings in the community. Join us in crafting memorable experiences and connecting through shared passions. Let's make every event a highlight!",
     tags: [
       {
         name: "nextjs",
@@ -275,6 +253,40 @@ const projects = [
         name: "mongodb",
         color: "green-text-gradient",
       },
+      {
+        name: "typescript",
+        color: "orange-text-gradient",
+      },
+      {
+        name: "clerk",
+        color: "purple-text-gradient",
+      },
+    ],
+    image: webProject08,
+    source_code_link: "https://github.com/chroll0/Event-Platform",
+    live_link: "https://event-platform-nu-lovat.vercel.app/",
+  },
+  {
+    name: "Promtopia",
+    description:
+      "Promtopia is a creative hub, a destination for creative prompts and inspiration. Immerse yourself in a world of artistic exploration across various genres. Unleash your creativity, discover new avenues, and share your unique perspective with our diverse community of creators and storytellers!",
+    tags: [
+      {
+        name: "nextjs",
+        color: "blue-text-gradient",
+      },
+      {
+        name: "tailwind",
+        color: "pink-text-gradient",
+      },
+      {
+        name: "mongodb",
+        color: "green-text-gradient",
+      },
+      {
+        name: "api library",
+        color: "orange-text-gradient",
+      },
     ],
     image: webProject04,
     source_code_link: "https://github.com/chroll0/Promtopia",
@@ -283,7 +295,7 @@ const projects = [
   {
     name: "Movie Corner",
     description:
-      "Welcome to Movie Corner, your go-to spot for all things related to movies and television shows. Our platform is created using advanced technologies such as Next.js, TypeScript, and Tailwind CSS. Here, you can keep yourself informed about the newest movie releases, trending TV series, and upcoming anime shows. Sign in to share your favorite picks with us and connect with other enthusiasts.",
+      "Movie Corner - all things related to movies and television shows. This platform is created using advanced technologies such as Next.js and TypeScript. Here are information about the newest movie releases, trending TV series and upcoming anime shows. Sign in, to share your favorite picks and connect with other enthusiasts.",
     tags: [
       {
         name: "nextjs",
@@ -328,84 +340,76 @@ const projects = [
     source_code_link: "https://github.com/chroll0/TM_3D_Website",
     live_link: "https://dainty-frangollo-26f17c.netlify.app/",
   },
-  {
-    name: "Event Platform",
-    description:
-      "On our platform, you can effortlessly create and showcase your events while seamlessly accessing tickets to the hottest happenings in the community. Join us in crafting memorable experiences and connecting through shared passions. Let's make every event a highlight!",
-    tags: [
-      {
-        name: "nextjs",
-        color: "blue-text-gradient",
-      },
-      {
-        name: "tailwind",
-        color: "pink-text-gradient",
-      },
-      {
-        name: "mongodb",
-        color: "green-text-gradient",
-      },
-      {
-        name: "typescript",
-        color: "orange-text-gradient",
-      },
-      {
-        name: "clerk",
-        color: "purple-text-gradient",
-      },
-    ],
-    image: webProject08,
-    source_code_link: "https://github.com/chroll0/Event-Platform",
-    live_link: "https://event-platform-nu-lovat.vercel.app/",
-  },
-  {
-    name: "Nike Website",
-    description:
-      "This project is dedicated to the development of a modern and dynamic website inspired by the iconic Nike brand. Whether you're a sneakerhead, fitness enthusiast, or simply a fan of Nike's products and culture.",
-    tags: [
-      {
-        name: "react",
-        color: "blue-text-gradient",
-      },
-      {
-        name: "vitejs",
-        color: "green-text-gradient",
-      },
-      {
-        name: "tailwind",
-        color: "pink-text-gradient",
-      },
-    ],
-    image: webProject02,
-    source_code_link: "https://github.com/chroll0/Nike-Website",
-    live_link: "https://nike-website-designe.netlify.app/",
-  },
-  {
-    name: "Game - Death Road ",
-    description:
-      "This is a game where a car is moving by the player. Player should to collect stars, while avoiding crashing into opposite cars. The cars are moving along a road. There are 3 lives in game, so if player lose all three lives (by crashing into opposite car) game will end.",
-    tags: [
-      {
-        name: "html",
-        color: "pink-text-gradient",
-      },
-      {
-        name: "css",
-        color: "blue-text-gradient",
-      },
-      {
-        name: "javascript",
-        color: "orange-text-gradient",
-      },
-      {
-        name: "canvas",
-        color: "green-text-gradient",
-      },
-    ],
-    image: gameProject01,
-    source_code_link: "https://github.com/chroll0/Game-Death-Road",
-    live_link: "https://game-05-death-road.netlify.app/",
-  },
+  // {
+  //   name: "T-shirt Customizer",
+  //   description:
+  //     "AI T-shirt Customizer Website, where creativity meets technology to redefine the way you design and personalize T-shirts. Our innovative platform combines the power of artificial intelligence with your imagination, allowing you to create unique and stylish custom T-shirts effortlessly.",
+  //   tags: [
+  //     {
+  //       name: "react",
+  //       color: "blue-text-gradient",
+  //     },
+  //     {
+  //       name: "threejs",
+  //       color: "green-text-gradient",
+  //     },
+  //     {
+  //       name: "tailwind",
+  //       color: "pink-text-gradient",
+  //     },
+  //   ],
+  //   image: webProject03,
+  //   source_code_link: "https://github.com/chroll0/T-shirt-Customizer",
+  //   live_link: "https://t-shirt-customizer-website.netlify.app/",
+  // },
+  // {
+  //   name: "Nike Website",
+  //   description:
+  //     "This project is dedicated to the development of a modern and dynamic website inspired by the iconic Nike brand. Whether you're a sneakerhead, fitness enthusiast, or simply a fan of Nike's products and culture.",
+  //   tags: [
+  //     {
+  //       name: "react",
+  //       color: "blue-text-gradient",
+  //     },
+  //     {
+  //       name: "vitejs",
+  //       color: "green-text-gradient",
+  //     },
+  //     {
+  //       name: "tailwind",
+  //       color: "pink-text-gradient",
+  //     },
+  //   ],
+  //   image: webProject02,
+  //   source_code_link: "https://github.com/chroll0/Nike-Website",
+  //   live_link: "https://nike-website-designe.netlify.app/",
+  // },
+  // {
+  //   name: "Game - Death Road ",
+  //   description:
+  //     "This is a game where a car is moving by the player. Player should to collect stars, while avoiding crashing into opposite cars. The cars are moving along a road. There are 3 lives in game, so if player lose all three lives (by crashing into opposite car) game will end.",
+  //   tags: [
+  //     {
+  //       name: "html",
+  //       color: "pink-text-gradient",
+  //     },
+  //     {
+  //       name: "css",
+  //       color: "blue-text-gradient",
+  //     },
+  //     {
+  //       name: "javascript",
+  //       color: "orange-text-gradient",
+  //     },
+  //     {
+  //       name: "canvas",
+  //       color: "green-text-gradient",
+  //     },
+  //   ],
+  //   image: gameProject01,
+  //   source_code_link: "https://github.com/chroll0/Game-Death-Road",
+  //   live_link: "https://game-05-death-road.netlify.app/",
+  // },
 ];
 
 export { services, technologies, educations, testimonials, projects, skills };
