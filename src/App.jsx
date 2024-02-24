@@ -24,8 +24,8 @@ const App = () => {
 
         <About />
         <Education />
-        <Works />
         <Tech />
+        <Works />
         <Skills />
         {/* <Feedbacks /> */}
 
