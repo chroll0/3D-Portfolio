@@ -20,11 +20,11 @@ const Navbar = () => {
 
   const variants = {
     hidden: {
-      x: "-110%",
+      y: "-110%",
       opacity: 0,
     },
     visible: {
-      x: "0%",
+      y: "0%",
       opacity: 1,
     },
   };
@@ -33,36 +33,39 @@ const Navbar = () => {
       className={`${styles.paddingX} w-full flex items-center py-4 fixed top-0 z-20 bg-primary`}
     >
       <div className="w-full flex items-center justify-between max-w-7xl mx-auto">
-        <Link
-          to="/"
-          onClick={() => {
-            setActive("");
-            window.scrollTo(0, 0);
-          }}
-          className="flex items-center gap-2 mr-4"
-        >
-          <img src={logo} alt="logo" className="w-9 h-9 object-contain" />
-          <p className="text-white text-[18px] font-bold">Saba Antadze</p>
-        </Link>
-
-        <div
-          className="absolute top-[4.75rem] left-7 cursor-pointer z-20"
-          onClick={() => {
-            setToggle(true);
-            setProfileVisible(!profileVisible);
-          }}
-        >
-          {!profileVisible ? (
+        <div className="flex items-center">
+          <Link
+            to="/"
+            onClick={() => {
+              setActive("");
+              window.scrollTo(0, 0);
+            }}
+            className="flex items-center gap-2 mr-4"
+          >
+            <img src={logo} alt="logo" className="w-9 h-9 object-contain" />
+          </Link>
+          <div
+            className="cursor-pointer z-20 "
+            onClick={() => {
+              setToggle(true);
+              setProfileVisible(!profileVisible);
+            }}
+          >
+            <p className="text-white text-[18px] font-bold transition hover:text-secondary">
+              Saba Antadze
+            </p>
+          </div>
+        </div>
+        {/* {!profileVisible ? (
             <BsArrowLeftCircleFill className="text-white hover:text-secondary transition duration-150 w-5 h-5" />
           ) : (
             <BsArrowRightCircleFill className="text-white hover:text-secondary transition duration-150 w-5 h-5" />
-          )}
-        </div>
+          )} */}
 
         {/* info modal window */}
         <motion.div
           className={
-            "p-6 black-gradient absolute top-[4.5rem] left-6 max-w-[250px] z-10 rounded-xl flex flex-col gap-6"
+            "p-6 black-gradient absolute top-[4.5rem] lg:left-28 max-w-[250px] z-10 rounded-xl flex flex-col gap-6"
           }
           initial="hidden"
           animate={profileVisible ? "hidden" : "visible"}

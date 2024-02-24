@@ -9,25 +9,20 @@ import {
   css,
   reactjs,
   tailwind,
-  redux,
-  nodejs,
-  docker,
   mongodb,
   git,
   figma,
   photoshop,
   firebase,
   nextjs,
-  meta,
-  starbucks,
-  tesla,
-  shopify,
   threejs,
   webProject01,
   webProject02,
   webProject03,
   webProject04,
   webProject05,
+  webProject08,
+  gameProject01,
 } from "../assets";
 
 export const navLinks = [
@@ -242,28 +237,6 @@ const testimonials = [
 
 const projects = [
   {
-    name: "Nike Website",
-    description:
-      "This project is dedicated to the development of a modern and dynamic website inspired by the iconic Nike brand. Whether you're a sneakerhead, fitness enthusiast, or simply a fan of Nike's products and culture.",
-    tags: [
-      {
-        name: "react",
-        color: "blue-text-gradient",
-      },
-      {
-        name: "vitejs",
-        color: "green-text-gradient",
-      },
-      {
-        name: "tailwind",
-        color: "pink-text-gradient",
-      },
-    ],
-    image: webProject02,
-    source_code_link: "https://github.com/chroll0/Nike-Website",
-    live_link: "https://nike-website-designe.netlify.app/",
-  },
-  {
     name: "T-shirt Customizer",
     description:
       "AI T-shirt Customizer Website, where creativity meets technology to redefine the way you design and personalize T-shirts. Our innovative platform combines the power of artificial intelligence with your imagination, allowing you to create unique and stylish custom T-shirts effortlessly.",
@@ -308,9 +281,9 @@ const projects = [
     live_link: "https://full-stake-website-9ew94pt76-chroll0.vercel.app/",
   },
   {
-    name: "Cocktails Website",
+    name: "Movie Corner",
     description:
-      "Small Cocktail Bar website is built using advanced web technologies like Next.js to ensure a fast, responsive, and user-friendly platform. Explore a wide range of cocktail recipes and enjoy smart features with ease. The website seamlessly connects with RESTful APIs, providing real-time access to cocktail recipes, ingredient information, and other essential tools.",
+      "Welcome to Movie Corner, your go-to spot for all things related to movies and television shows. Our platform is created using advanced technologies such as Next.js, TypeScript, and Tailwind CSS. Here, you can keep yourself informed about the newest movie releases, trending TV series, and upcoming anime shows. Sign in to share your favorite picks with us and connect with other enthusiasts.",
     tags: [
       {
         name: "nextjs",
@@ -319,6 +292,10 @@ const projects = [
       {
         name: "tailwind",
         color: "pink-text-gradient",
+      },
+      {
+        name: "typescript",
+        color: "green-text-gradient",
       },
       {
         name: "restapi",
@@ -326,34 +303,108 @@ const projects = [
       },
     ],
     image: webProject01,
-    source_code_link: "https://github.com/chroll0/Cocktail-Website",
-    live_link: "https://cocktail-website-lac.vercel.app/",
+    source_code_link: "https://github.com/chroll0/Movie_Corner",
+    live_link: "https://movie-corner.vercel.app/",
   },
   {
-    name: "Car Hub",
+    name: "3D Portfolio Website",
     description:
-      "This is the Car Hub website, a responsive and user-friendly platform for exploring and renting cars. It's built with Next.js and TypeScript, featuring powerful search and filter functions. Powered by a RESTful API, it makes it easy for users to find the perfect vehicle they need.",
+      "Welcome to TM Group, where innovation meets excellence in software engineering. Our passionate team of skilled engineers is committed to crafting cutting-edge solutions that redefine industry standards. With a focus on collaboration, creativity, and precision, we turn ideas into reality.",
     tags: [
       {
-        name: "nextjs",
+        name: "react",
         color: "blue-text-gradient",
       },
       {
-        name: "typescript",
+        name: "vitejs",
         color: "green-text-gradient",
       },
       {
         name: "tailwind",
         color: "pink-text-gradient",
       },
-      {
-        name: "restapi",
-        color: "orange-text-gradient",
-      },
     ],
     image: webProject05,
-    source_code_link: "https://github.com/chroll0/Car_Hub",
-    live_link: "https://car-hub-self.vercel.app/",
+    source_code_link: "https://github.com/chroll0/TM_3D_Website",
+    live_link: "https://dainty-frangollo-26f17c.netlify.app/",
+  },
+  {
+    name: "Event Platform",
+    description:
+      "On our platform, you can effortlessly create and showcase your events while seamlessly accessing tickets to the hottest happenings in the community. Join us in crafting memorable experiences and connecting through shared passions. Let's make every event a highlight!",
+    tags: [
+      {
+        name: "nextjs",
+        color: "blue-text-gradient",
+      },
+      {
+        name: "tailwind",
+        color: "pink-text-gradient",
+      },
+      {
+        name: "mongodb",
+        color: "green-text-gradient",
+      },
+      {
+        name: "typescript",
+        color: "orange-text-gradient",
+      },
+      {
+        name: "clerk",
+        color: "purple-text-gradient",
+      },
+    ],
+    image: webProject08,
+    source_code_link: "https://github.com/chroll0/Event-Platform",
+    live_link: "https://event-platform-nu-lovat.vercel.app/",
+  },
+  {
+    name: "Nike Website",
+    description:
+      "This project is dedicated to the development of a modern and dynamic website inspired by the iconic Nike brand. Whether you're a sneakerhead, fitness enthusiast, or simply a fan of Nike's products and culture.",
+    tags: [
+      {
+        name: "react",
+        color: "blue-text-gradient",
+      },
+      {
+        name: "vitejs",
+        color: "green-text-gradient",
+      },
+      {
+        name: "tailwind",
+        color: "pink-text-gradient",
+      },
+    ],
+    image: webProject02,
+    source_code_link: "https://github.com/chroll0/Nike-Website",
+    live_link: "https://nike-website-designe.netlify.app/",
+  },
+  {
+    name: "Game - Death Road ",
+    description:
+      "This is a game where a car is moving by the player. Player should to collect stars, while avoiding crashing into opposite cars. The cars are moving along a road. There are 3 lives in game, so if player lose all three lives (by crashing into opposite car) game will end.",
+    tags: [
+      {
+        name: "html",
+        color: "pink-text-gradient",
+      },
+      {
+        name: "css",
+        color: "blue-text-gradient",
+      },
+      {
+        name: "javascript",
+        color: "orange-text-gradient",
+      },
+      {
+        name: "canvas",
+        color: "green-text-gradient",
+      },
+    ],
+    image: gameProject01,
+    source_code_link: "https://github.com/chroll0/Game-Death-Road",
+    live_link: "https://game-05-death-road.netlify.app/",
   },
 ];
 
