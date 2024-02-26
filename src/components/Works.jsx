@@ -86,6 +86,11 @@ const ProjectCard = ({
 };
 
 const Works = () => {
+  const isLargeDevice = () => {
+    const breakpoint = 768;
+
+    return window.innerWidth >= breakpoint;
+  };
   return (
     <>
       <motion.div variants={textVariant()}>
@@ -114,9 +119,23 @@ const Works = () => {
         </motion.p>
       </div>
       <div className="mt-20 flex flex-wrap gap-7">
-        {projects.map((project, index) => (
-          <ProjectCard key={`project-${index}`} index={index} {...project} />
-        ))}
+        {isLargeDevice()
+          ? projects.map((project, index) => (
+              <ProjectCard
+                key={`project-${index}`}
+                index={index}
+                {...project}
+              />
+            ))
+          : projects
+              .slice(0, 4)
+              .map((project, index) => (
+                <ProjectCard
+                  key={`project-${index}`}
+                  index={index}
+                  {...project}
+                />
+              ))}
       </div>
     </>
   );

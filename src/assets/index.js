@@ -44,6 +44,7 @@ import webProject06 from "./project/web-project06.png";
 import webProject07 from "./project/web-project07.png";
 import webProject08 from "./project/web-project08.png";
 import webProject09 from "./project/web-project09.png";
+import webProject10 from "./project/web-project10.png";
 
 import profileImg from "./profile.png";
 
@@ -90,5 +91,6 @@ export {
   webProject07,
   webProject08,
   webProject09,
+  webProject10,
   profileImg,
 };

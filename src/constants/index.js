@@ -23,6 +23,7 @@ import {
   webProject05,
   webProject08,
   gameProject01,
+  webProject10,
 } from "../assets";
 
 export const navLinks = [
@@ -340,76 +341,98 @@ const projects = [
     source_code_link: "https://github.com/chroll0/TM_3D_Website",
     live_link: "https://dainty-frangollo-26f17c.netlify.app/",
   },
-  // {
-  //   name: "T-shirt Customizer",
-  //   description:
-  //     "AI T-shirt Customizer Website, where creativity meets technology to redefine the way you design and personalize T-shirts. Our innovative platform combines the power of artificial intelligence with your imagination, allowing you to create unique and stylish custom T-shirts effortlessly.",
-  //   tags: [
-  //     {
-  //       name: "react",
-  //       color: "blue-text-gradient",
-  //     },
-  //     {
-  //       name: "threejs",
-  //       color: "green-text-gradient",
-  //     },
-  //     {
-  //       name: "tailwind",
-  //       color: "pink-text-gradient",
-  //     },
-  //   ],
-  //   image: webProject03,
-  //   source_code_link: "https://github.com/chroll0/T-shirt-Customizer",
-  //   live_link: "https://t-shirt-customizer-website.netlify.app/",
-  // },
-  // {
-  //   name: "Nike Website",
-  //   description:
-  //     "This project is dedicated to the development of a modern and dynamic website inspired by the iconic Nike brand. Whether you're a sneakerhead, fitness enthusiast, or simply a fan of Nike's products and culture.",
-  //   tags: [
-  //     {
-  //       name: "react",
-  //       color: "blue-text-gradient",
-  //     },
-  //     {
-  //       name: "vitejs",
-  //       color: "green-text-gradient",
-  //     },
-  //     {
-  //       name: "tailwind",
-  //       color: "pink-text-gradient",
-  //     },
-  //   ],
-  //   image: webProject02,
-  //   source_code_link: "https://github.com/chroll0/Nike-Website",
-  //   live_link: "https://nike-website-designe.netlify.app/",
-  // },
-  // {
-  //   name: "Game - Death Road ",
-  //   description:
-  //     "This is a game where a car is moving by the player. Player should to collect stars, while avoiding crashing into opposite cars. The cars are moving along a road. There are 3 lives in game, so if player lose all three lives (by crashing into opposite car) game will end.",
-  //   tags: [
-  //     {
-  //       name: "html",
-  //       color: "pink-text-gradient",
-  //     },
-  //     {
-  //       name: "css",
-  //       color: "blue-text-gradient",
-  //     },
-  //     {
-  //       name: "javascript",
-  //       color: "orange-text-gradient",
-  //     },
-  //     {
-  //       name: "canvas",
-  //       color: "green-text-gradient",
-  //     },
-  //   ],
-  //   image: gameProject01,
-  //   source_code_link: "https://github.com/chroll0/Game-Death-Road",
-  //   live_link: "https://game-05-death-road.netlify.app/",
-  // },
+  {
+    name: "T-shirt Customizer",
+    description:
+      "AI T-shirt Customizer Website, where creativity meets technology to redefine the way you design and personalize T-shirts. Our innovative platform combines the power of artificial intelligence with your imagination, allowing you to create unique and stylish custom T-shirts effortlessly.",
+    tags: [
+      {
+        name: "react",
+        color: "blue-text-gradient",
+      },
+      {
+        name: "threejs",
+        color: "green-text-gradient",
+      },
+      {
+        name: "tailwind",
+        color: "pink-text-gradient",
+      },
+    ],
+    image: webProject03,
+    source_code_link: "https://github.com/chroll0/T-shirt-Customizer",
+    live_link: "https://t-shirt-customizer-website.netlify.app/",
+  },
+  {
+    name: "Nike Website",
+    description:
+      "This project is dedicated to the development of a modern and dynamic website inspired by the iconic Nike brand. Whether you're a sneakerhead, fitness enthusiast, or simply a fan of Nike's products and culture.",
+    tags: [
+      {
+        name: "react",
+        color: "blue-text-gradient",
+      },
+      {
+        name: "vitejs",
+        color: "green-text-gradient",
+      },
+      {
+        name: "tailwind",
+        color: "pink-text-gradient",
+      },
+    ],
+    image: webProject02,
+    source_code_link: "https://github.com/chroll0/Nike-Website",
+    live_link: "https://nike-website-designe.netlify.app/",
+  },
+  {
+    name: "Restaurant Website",
+    description:
+      "This is a modern and dynamic Restaurant Website, where you can explore and discover a world of culinary delights. Whether you're a food enthusiast, a restaurant owner, or a developer looking for inspiration, our website project is your one-stop destination for restaurant information and inspiration.",
+    tags: [
+      {
+        name: "react",
+        color: "blue-text-gradient",
+      },
+      {
+        name: "javascript",
+        color: "green-text-gradient",
+      },
+      {
+        name: "css",
+        color: "pink-text-gradient",
+      },
+    ],
+    image: webProject10,
+    source_code_link: "https://github.com/chroll0/Website-Restaurant",
+    live_link: "https://chroll0.github.io/Website-Restaurant/",
+  },
+  {
+    name: "Game - Death Road ",
+    description:
+      "This is a game where a car is moving by the player. Player should to collect stars, while avoiding crashing into opposite cars. The cars are moving along a road. There are 3 lives in game, so if player lose all three lives (by crashing into opposite car) game will end.",
+    tags: [
+      {
+        name: "html",
+        color: "pink-text-gradient",
+      },
+      {
+        name: "css",
+        color: "blue-text-gradient",
+      },
+      {
+        name: "javascript",
+        color: "orange-text-gradient",
+      },
+      {
+        name: "canvas",
+        color: "green-text-gradient",
+      },
+    ],
+    image: gameProject01,
+    source_code_link: "https://github.com/chroll0/Game-Death-Road",
+    live_link: "https://game-05-death-road.netlify.app/",
+  },
 ];
 
 export { services, technologies, educations, testimonials, projects, skills };
