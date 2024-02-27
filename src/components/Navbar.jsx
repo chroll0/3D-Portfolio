@@ -1,11 +1,9 @@
 import { useState } from "react";
 import { Link } from "react-router-dom";
 import { MdEmail, MdLocationPin, MdPhone } from "react-icons/md";
-import {
-  BsArrowLeftCircleFill,
-  BsArrowRightCircleFill,
-  BsGithub,
-} from "react-icons/bs";
+import { BsGithub } from "react-icons/bs";
+import { IoClose } from "react-icons/io5";
+
 import { AiFillLinkedin } from "react-icons/ai";
 import { motion } from "framer-motion";
 
@@ -56,21 +54,23 @@ const Navbar = () => {
             </p>
           </div>
         </div>
-        {/* {!profileVisible ? (
-            <BsArrowLeftCircleFill className="text-white hover:text-secondary transition duration-150 w-5 h-5" />
-          ) : (
-            <BsArrowRightCircleFill className="text-white hover:text-secondary transition duration-150 w-5 h-5" />
-          )} */}
 
         {/* info modal window */}
         <motion.div
           className={
-            "p-6 black-gradient absolute top-[4.5rem] lg:left-28 max-w-[250px] z-10 rounded-xl flex flex-col gap-6"
+            "p-6 black-gradient absolute top-[4.5rem] lg:left-28 max-w-[250px] z-10 rounded-sm flex flex-col gap-6"
           }
           initial="hidden"
           animate={profileVisible ? "hidden" : "visible"}
           variants={variants}
         >
+          <IoClose
+            className="text-white hover:text-secondary transition duration-150 w-5 h-5 absolute top-1.5 right-1.5 cursor-pointer"
+            onClick={() => {
+              setToggle(true);
+              setProfileVisible(!profileVisible);
+            }}
+          />
           <div className=" w-full flex justify-center flex-col items-center">
             <img
               className="w-[60%] h-auto rounded-full"
